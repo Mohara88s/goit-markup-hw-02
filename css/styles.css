@@ -70,10 +70,6 @@ h3 {
   color: var(--dark-color);
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
 
 .logo {
   font-family: var(--second-font);
@@ -94,14 +90,6 @@ h3 {
   color: var(--dark-color);
 }
 
-.nav-list {
-  display: flex;
-}
-
-.address-list {
-  display: flex;
-}
-
 .nav-link:hover,
 .nav-link:focus,
 .address-link:hover,
@@ -110,9 +98,6 @@ h3 {
 }
 
 .hero-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   color: var(--bg-color);
   background-color: var(--dark-color);
 }
@@ -140,23 +125,8 @@ h3 {
   display: none;
 }
 
-.features-list {
-  display: flex;
-}
-
 .our-team-section {
   background-color: var(--light-color);
-}
-
-.our-team-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.our-portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .footer {
