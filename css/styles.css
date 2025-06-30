@@ -54,37 +54,21 @@ address {
 }
 
 img {
-  display: block;
   max-width: 100%;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  text-align: center;
-  color: var(--dark-color);
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--dark-color);
 }
 
 .logo {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--dark-color);
+  color: var(--primary-brand-color);
 }
 
-.logo-accent {
-  color: var(--primary-brand-color);
+.logo-span {
+  color: var(--dark-color);
 }
 
 .nav {
@@ -95,7 +79,7 @@ h3 {
 .nav-link:hover,
 .nav-link:focus,
 .address-link:hover,
-.address-list:focus {
+.address-link:focus {
   color: var(--active-primary-brand-color);
 }
 
@@ -107,7 +91,8 @@ h3 {
 .hero-slogan {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -124,22 +109,94 @@ h3 {
   background-color: var(--active-primary-brand-color);
 }
 
-.features-section-name {
-  display: none;
+.features-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.features-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.features-list-caption {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .our-team-section {
   background-color: var(--light-color);
 }
 
+.our-team-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.our-team-list-item {
+  background-color: var(--bg-color);
+}
+
+.our-team-list-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.our-team-list-position {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.our-portfolio-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.our-portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.our-portfolio-list-caption {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .footer {
   background-color: var(--dark-color);
 }
 
-.footer-logo {
-  color: var(--light-color);
-}
-
+.footer-logo-span,
 .footer-info {
   color: var(--light-color);
 }
